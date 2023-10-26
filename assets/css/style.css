@@ -1,0 +1,117 @@
+/*=== abstracts css start === */
+@font-face {
+  font-family: Movatif-Book;
+  src: url(../fonts/Movatif-Book.ttf);
+}
+/*===// end of abstracts css === */
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: rgb(240, 87, 49);
+  background: linear-gradient(90deg, rgba(240, 87, 49, 0.300157563) 0%, rgba(255, 255, 255, 0.300157563) 10%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0.2973564426) 90%, rgba(240, 87, 49, 0.300157563) 100%);
+}
+
+body {
+  font-family: Movatif-Book;
+  color: #0f2224;
+}
+
+.text-orange {
+  color: #f05731;
+}
+
+.text-dark {
+  color: #0f2224 !important;
+}
+
+.px-60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/*===// end of base css === */
+/*=== components css start === */
+/*===// end of components css === */
+/*=== layout css start === */
+@media (max-width: 575px) {
+  .footer .footer-logo {
+    width: 150px;
+  }
+}
+
+/*===// end of layout css === */
+/*=== pages start === */
+.hero .main-title {
+  font-size: calc(2rem + 4vw);
+}
+.hero .heading-2 {
+  font-size: calc(1.75rem + 3vw);
+}
+.hero ul li h2 {
+  font-size: calc(1.325rem + 2.25vw);
+  line-height: 1;
+}
+.hero ul li h2 {
+  font-size: calc(1.325rem + 1.5vw);
+}
+
+.target-specifics p {
+  font-size: calc(1rem + 1.25vw);
+}
+.target-specifics h2 {
+  font-size: calc(1.5rem + 3vw);
+}
+
+.targeting .heading {
+  font-size: calc(1.5rem + 3vw);
+}
+.targeting .description {
+  font-size: calc(1rem + 1vw);
+}
+.targeting .time img {
+  max-width: 30%;
+}
+
+.graph .graph-heading {
+  font-size: calc(1.25rem + 1.25vw);
+}
+.graph p {
+  font-size: calc(1rem + 0.5vw);
+}
+
+.biggest-challenge h2 {
+  font-size: calc(1.25rem + 1.25vw);
+}
+.biggest-challenge p {
+  font-size: calc(1rem + 0.5vw);
+}
+
+/*=== // end of pages  === *//*# sourceMappingURL=style.css.map */

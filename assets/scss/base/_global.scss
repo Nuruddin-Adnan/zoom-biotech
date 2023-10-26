@@ -1,0 +1,31 @@
+@use '../abstracts/variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+  
+::after, ::before {
+  box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+   
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  // background-image: linear-gradient(90deg, rgba(variables.$color-orange, 0.30), #fff 50%,  rgba(variables.$color-orange, 0.30));
+  background: rgb(240,87,49);
+  background: linear-gradient(90deg, rgba(240,87,49,0.30015756302521013) 0%, rgba(255,255,255,0.30015756302521013) 10%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.29735644257703087) 90%, rgba(240,87,49,0.30015756302521013) 100%);
+}
